@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "服务中心",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

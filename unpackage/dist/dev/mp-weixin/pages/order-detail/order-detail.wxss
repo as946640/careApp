@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.flex-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.flex-grow-0 {
+  min-width: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.flex-grow-1 {
+  min-width: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.flex-x-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex-y-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+}
+.flex-y-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  -ms-grid-row-align: flex-end;
+  align-items: flex-end;
+}
+page {
+  background-color: #EEEEEE;
+}
+.pages {
+  font-size: 11pt;
+  width: 94%;
+  margin: 20rpx auto;
+  padding-bottom: 15%;
+}
+.pages .send {
+  font-size: 12pt;
+  color: #fff;
+  background-size: 100%;
+  background-image: url(http://gc.sinbel.cn/web/statics//wxapp/images/img-order-status-bar.png);
+  padding: 50rpx;
+  border-radius: 15rpx;
+}
+.pages .send .left {
+  width: 60%;
+}
+.pages .send .left image {
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+  margin-left: auto;
+}
+.pages .expressage {
+  line-height: 50rpx;
+  padding: 20rpx;
+  position: relative;
+  background-color: #FFFFFF;
+  margin: 20rpx auto;
+  border-radius: 15rpx;
+}
+.pages .expressage .right {
+  width: 15%;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.pages .expressage .right image {
+  width: 100%;
+  height: 100%;
+}
+.pages .expressage .go_right {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 20rpx;
+}
+.pages .user {
+  padding: 20rpx;
+  background-color: #FFFFFF;
+  margin: 20rpx 0;
+  border-radius: 15rpx;
+}
+.pages .user .right {
+  width: 15%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.pages .user .right image {
+  width: 100%;
+  height: 100%;
+}
+.pages .user .user_linkman view {
+  width: 100%;
+}
+.pages .user .user_linkman view:last-child {
+  text-align: right;
+}
+.pages .order {
+  padding: 20rpx;
+  height: 100%;
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-radius: 15rpx;
+  background-color: #fff;
+}
+.pages .order .order_info {
+  width: 100%;
+  font-size: 10pt;
+  background-color: #FFFFFF;
+}
+.pages .order .order_info .left {
+  width: 40%;
+  min-width: 40%;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+  border-top-left-radius: 24rpx;
+  border-bottom-left-radius: 24rpx;
+}
+.pages .order .order_info .left image {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.pages .order .order_info .right {
+  width: 60%;
+  min-width: 60%;
+  font-size: 10pt;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.pages .order .order_info .right .goods_title {
+  width: 90%;
+  font-size: 11pt;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.pages .order .order_info .right .attr {
+  color: #BCBCBC;
+  width: 80%;
+  font-size: 10pt;
+}
+.pages .order .order_info .right .price {
+  margin-top: 15%;
+  font-size: 11pt;
+  text-align: right;
+}
+.pages .order .order_info .bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 10rpx;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.pages .order .order_info .bottom .btnitem {
+  width: 50%;
+  height: 50rpx;
+  font-size: 9pt;
+  color: #555555;
+  margin-right: 5rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 20rpx;
+}
+.pages .goods {
+  padding: 20rpx;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  margin: 20rpx 0;
+  border-radius: 15rpx;
+}
+.pages .goods .order_list .list view {
+  width: 50%;
+  margin-top: 5rpx;
+}
+.pages .goods .order_list .list .left {
+  width: 100%;
+  text-align: left !important;
+}
+.pages .goods .order_list .list view:last-child {
+  text-align: right;
+}
+.pages .goods .sum {
+  text-align: right;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 1px solid #EEEEEE;
+}
+.pages .btn {
+  width: 94%;
+  position: fixed;
+  box-sizing: border-box;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 20rpx;
+  background-color: #F15E00;
+  border-radius: 20rpx;
+}
+.pages .btn .btnitem {
+  width: 100%;
+  height: 80rpx;
+  font-size: 10pt;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 20rpx;
+}
+

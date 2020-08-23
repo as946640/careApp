@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tui-tabs": "/components/thorui/tui-tabs/tui-tabs",
+    "tui-upload": "/components/thorui/tui-upload/tui-upload"
+  }
+}

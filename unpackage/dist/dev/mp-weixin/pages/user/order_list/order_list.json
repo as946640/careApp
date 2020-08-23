@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#FFFFFF",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "tui-icon": "/components/thorui/tui-icon/tui-icon"
+  }
+}

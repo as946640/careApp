@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商品评价",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColorTop": "#FFFFFF",
+  "backgroundColorBottom": "#ffffff",
+  "usingComponents": {
+    "tui-icon": "/components/thorui/tui-icon/tui-icon",
+    "tui-upload": "/components/thorui/tui-upload/tui-upload"
+  }
+}

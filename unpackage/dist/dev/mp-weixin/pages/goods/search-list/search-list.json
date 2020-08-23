@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tui-icon": "/components/thorui/tui-icon/tui-icon",
+    "tui-no-data": "/components/thorui/tui-no-data/tui-no-data",
+    "tui-loadmore": "/components/thorui/tui-loadmore/tui-loadmore",
+    "tui-nomore": "/components/thorui/tui-nomore/tui-nomore"
+  }
+}

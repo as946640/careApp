@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "领卷中心",
+  "navigationBarBackgroundColor": "#f06c7a",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

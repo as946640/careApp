@@ -1,0 +1,182 @@
+
+.body.data-v-5e65aa80{
+	background-color: #EFEFF4;
+}
+.top.data-v-5e65aa80{
+	width: 100%;
+	height: 330rpx;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60rpx;
+	background: url(http://gc.sinbel.cn/web/statics/images/recharge/icon-balance-bg.png) no-repeat center top;
+	background-size: 100% 100%;
+	color: #FFFFFF;
+}
+.icon-image.data-v-5e65aa80{
+	width: 40rpx;
+	height: 40rpx;
+	position: absolute;
+	border-radius: 50%;
+	overflow: hidden;
+	top: 30rpx;
+	right: 30rpx;
+}
+.icon-image>image.data-v-5e65aa80{
+	width: 100%;
+	height: 100%;
+}
+.title.data-v-5e65aa80{
+	font-size: 34rpx;
+}
+.money.data-v-5e65aa80{
+	font-size: 68rpx;
+	padding: 10rpx 0;
+}
+.recharge.data-v-5e65aa80{
+	border: 1px solid #FFFFFF;
+	height: 50rpx;
+	width: 130rpx;
+	line-height: 48rpx;
+	margin:0 auto;
+	margin-top: 10rpx;
+	font-size: 32rpx;
+	border-radius: 80rpx;
+}
+.activity.data-v-5e65aa80{
+	width: 100%;
+	height: 170rpx;
+	margin: 20rpx 0;
+}
+.activity>navigator.data-v-5e65aa80{
+	width: 100%;
+	height: 100%;
+}
+.activity>navigator>image.data-v-5e65aa80{
+	width: 100%;
+	height: 100%;
+}
+.detailed-box.data-v-5e65aa80{
+	width: 100%;
+	padding-bottom: 30rpx;
+	background-color: #FFFFFF;
+}
+.detailed-title.data-v-5e65aa80{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 80rpx;
+}
+.time.data-v-5e65aa80{
+	font-size: 40rpx;
+}
+.time>view.data-v-5e65aa80{
+	width: 100%;
+	text-align: center;
+}
+.detailed-title>view.data-v-5e65aa80{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+}
+.detailed-title>.time.data-v-5e65aa80{
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+	text-align: center;
+}
+.detailed-title>.icon.data-v-5e65aa80{
+	font-size: 30rpx;
+}
+.detailed-title>.icon.data-v-5e65aa80:nth-of-type(1){
+	text-align: right;
+}
+.detailed-title>.icon.data-v-5e65aa80:nth-of-type(2){
+	text-align: left;
+}
+.detailed-item.data-v-5e65aa80{
+	box-sizing: border-box;
+	padding: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-top: 1px solid #EDEDED;
+}
+.detailed-item-info.data-v-5e65aa80{
+	width: 460rpx;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.detailed-item-info>view.data-v-5e65aa80:nth-of-type(1){
+	width: 460rpx;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.detailed-item-info>view.data-v-5e65aa80{
+	padding: 6rpx 0;
+	font-size: 32rpx;
+}
+.detailed-item-info>view.data-v-5e65aa80:nth-of-type(2){
+	font-size: 30rpx;
+	color: #999999;
+}
+.detailed-item-money.data-v-5e65aa80{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: right;
+}
+.explain-model.data-v-5e65aa80{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color:rgba(0,0,0,0.5);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.explain-box.data-v-5e65aa80{
+	width: 80vw;
+	min-height: 260rpx;
+	box-sizing: border-box;
+	padding: 40rpx 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+}
+.explain-title.data-v-5e65aa80{
+	text-align: center;
+	font-size: 42rpx;
+}
+.explain-cont.data-v-5e65aa80{
+	min-height: 50rpx;
+	margin: 30rpx 0;
+	font-size: 32rpx;
+}
+.explain-btn.data-v-5e65aa80{
+	text-align: center;
+	width: 85%;
+	height: 70rpx;
+	line-height: 70rpx;
+	color: #FFFFFF;
+	background-color: #FF4544;
+	border-radius: 20rpx;
+	margin:0 auto;
+	font-size: 36rpx;
+}
+

@@ -1,0 +1,469 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.flex-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.flex-grow-0 {
+  min-width: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.flex-grow-1 {
+  min-width: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.flex-x-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex-y-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+}
+.flex-y-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  -ms-grid-row-align: flex-end;
+  align-items: flex-end;
+}
+.addr {
+  width: 86%;
+  padding: 20rpx 3%;
+  margin: 30rpx auto 20rpx auto;
+  box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #FFFFFF;
+}
+.addr .icon {
+  width: 80rpx;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.addr .icon image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.addr .tel-name {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 32rpx;
+}
+.addr .tel-name .tel {
+  margin-left: 40rpx;
+}
+.addr .addres {
+  width: 100%;
+  font-size: 26rpx;
+  color: #999;
+}
+.addr .select {
+  line-height: 80rpx;
+}
+.box {
+  box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+  width: 86%;
+  padding: 10rpx 3%;
+  margin: 30rpx auto;
+  border-radius: 20rpx;
+  background-color: #FFFFFF;
+}
+.box .buy-list {
+  width: 100%;
+}
+.box .buy-list .shop-title {
+  font-size: 30rpx;
+  line-height: 40rpx;
+}
+.box .buy-list .row {
+  margin: 10rpx 0 20rpx 0;
+}
+.box .buy-list .row .radio {
+  width: 50px;
+  height: 50px;
+}
+.box .buy-list .row .goods-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box .buy-list .row .goods-info .img {
+  width: 22vw;
+  height: 22vw;
+  border-radius: 10rpx;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin-right: 10rpx;
+}
+.box .buy-list .row .goods-info .img image {
+  width: 22vw;
+  height: 22vw;
+}
+.box .buy-list .row .goods-info .info {
+  width: 100%;
+  height: 22vw;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  position: relative;
+}
+.box .buy-list .row .goods-info .info .title {
+  width: 100%;
+  font-size: 28rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.box .buy-list .row .goods-info .info .spec {
+  font-size: 22rpx;
+  background-color: #f3f3f3;
+  color: #a7a7a7;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 10rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20vw;
+}
+.box .buy-list .row .goods-info .info .spec > view {
+  margin-right: 10rpx;
+}
+.box .buy-list .row .goods-info .info .price-number {
+  position: absolute;
+  width: 100%;
+  bottom: 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+  font-size: 28rpx;
+  height: 40rpx;
+}
+.box .buy-list .row .goods-info .info .price-number .price {
+  color: #f06c7a;
+}
+.box .buy-list .row .goods-info .info .price-number .vip-price {
+  font-size: 24rpx;
+  max-width: 400rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.box .buy-list .row .goods-info .info .price-number .vip-price > text {
+  font-size: 20rpx;
+  color: #999999;
+  text-decoration: line-through;
+  margin-right: 10rpx;
+}
+.box .buy-list .row .goods-info .info .price-number .number {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.box .order {
+  width: 100%;
+  padding: 10rpx 3%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  border-radius: 20rpx;
+}
+.box .order .row {
+  margin: 20rpx 0;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box .order .row .left {
+  font-size: 28rpx;
+}
+.box .order .row .right {
+  margin-left: 40rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+.box .order .row .right input {
+  font-size: 26rpx;
+  color: #999;
+}
+.box .order .row .coupon {
+  margin-left: auto;
+  color: #f06c7a;
+}
+.box .order .row .right > text {
+  color: #f06c7a;
+}
+.box .detail {
+  width: 100%;
+  padding: 10rpx 3%;
+  box-sizing: border-box;
+  margin: 20rpx auto;
+  margin-top: 10rpx;
+  border-radius: 20rpx;
+}
+.box .detail .row {
+  height: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.box .detail .row .nominal {
+  font-size: 28rpx;
+}
+.box .detail .row .content {
+  font-size: 26rpx;
+  color: #f06c7a;
+}
+.integral-box {
+  box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+  width: 86%;
+  padding: 10rpx 3%;
+  margin: 30rpx auto;
+  border-radius: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 30rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #FFFFFF;
+}
+.integral-box .right {
+  margin-left: auto;
+  width: 100rpx;
+}
+.integral-box .middle > text {
+  color: #f06c7a;
+}
+.blck {
+  width: 100%;
+  height: 100rpx;
+}
+.footer {
+  width: 92%;
+  padding: 0 4%;
+  background-color: #FFFFFF;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  position: fixed;
+  bottom: 0rpx;
+  z-index: 5;
+}
+.footer .settlement {
+  width: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.footer .settlement .sum {
+  width: 50%;
+  font-size: 28rpx;
+  margin-right: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.footer .settlement .sum .money {
+  font-weight: 600;
+}
+.footer .settlement .btn {
+  padding: 0 30rpx;
+  height: 60rpx;
+  background-color: #f06c7a;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 30rpx;
+  border-radius: 40rpx;
+}
+.coupon-box {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  padding: 35rpx;
+  box-sizing: border-box;
+  z-index: 999;
+}
+.coupon-box .explain {
+  font-size: 34rpx;
+  color: #9A9A9A;
+}
+.coupon-box .noSub {
+  width: 100%;
+  height: 80rpx;
+  border: 2px solid #E5E5E5;
+  border-radius: 6rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color: #9A9A9A;
+  margin: 20rpx auto;
+  box-sizing: border-box;
+}
+.coupon-box .coupon-list {
+  box-sizing: border-box;
+  height: 80vh;
+}
+.coupon-box .coupon-list .coupon-item {
+  height: 180rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 115% 100%;
+  margin-bottom: 20rpx;
+}
+.coupon-box .coupon-list .coupon-item .money {
+  width: 230rpx;
+  text-align: center;
+  color: #FFFFFF;
+  margin-right: 20rpx;
+}
+.coupon-box .coupon-list .coupon-item .money .price > text {
+  font-size: 60rpx;
+}
+.coupon-box .coupon-list .coupon-item .money .cut-price {
+  font-size: 28rpx;
+}
+.coupon-box .coupon-list .coupon-item .info .from {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.coupon-box .coupon-list .coupon-item .info .time {
+  font-size: 24rpx;
+}
+
